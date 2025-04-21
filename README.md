@@ -9,12 +9,14 @@ NX + NG Chrome Extension Starter Template is a starter template for building Chr
 | Pacakge | Version |
 | ------- | ------- |
 | NX      | 20.x    |
-| NG      | 19.x    |
+| NG      | 20.x    |
 
 ## Create New Extension
 
-Create a new Angular project using [NX Angular Plugin](https://nx.dev/nx-api/angular#using-the-angular-plugin):
+Create a new Angulard based Chrome extension using the NX CLI with [nx-monorepo-plugins](https://github.com/ngeenx/nx-monorepo-plugins). In this template, we are using the `@ngeen-platform/ng-plugin` package to generate a new Chrome extension.
 
 ```bash
-nx g @nx/angular:app apps/chrome-extensions/YOUR_EXTENSION_NAME
+nx generate @ngeen-platform/ng-plugin:chrome-extension-generator
 ```
+
+And follow [these steps](https://github.com/ngeenx/nx-monorepo-plugins/tree/main/ng-plugin/src/generators/chrome-extension-generator).
