@@ -5,18 +5,32 @@
   "scripts": {},
   "private": true,
   "devDependencies": {
+    "@eslint/eslintrc": "^3.3.1",
+    "@eslint/js": "^9.25.1",
     "@nx/angular": "20.8.0",
+    "@nx/eslint": "20.8.0",
+    "@nx/eslint-plugin": "20.8.0",
     "@nx/js": "20.8.0",
     "@nx/plugin": "20.8.0",
+    "@nx/vite": "20.8.0",
+    "@nx/web": "20.8.0",
     "@swc-node/register": "~1.9.1",
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
+    "@typescript-eslint/eslint-plugin": "^8.31.0",
+    "@vitest/ui": "^3.0.0",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "jiti": "2.4.2",
+    "jsonc-eslint-parser": "^2.4.0",
     "nx": "20.8.0",
     "prettier": "^2.6.2",
     "tslib": "^2.3.0",
-    "typescript": "~5.7.2"
+    "typescript": "~5.7.2",
+    "vite": "^6.0.0",
+    "vitest": "^3.0.0"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {}
 }
